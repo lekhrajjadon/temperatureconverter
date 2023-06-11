@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/01/19/18/92/360_F_119189251_kiyixdA3xj8dcCimKuVa4e5DcuslHJPs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Additional styling properties */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container {
+    background-color: transparent;
+  
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 100px;
+ 
+    box-shadow: -50px 15px 20px rgba(0, 0, 0, 0.2);
+  }
+  *{
+    background-color: transparent;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group,
+  .output-group div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    flex: 0 0 100px;
+}
